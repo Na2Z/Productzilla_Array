@@ -1,39 +1,46 @@
-// console.log("array");
-// //Tugas dibawah
+console.log("array");
+//Tugas dibawah
 
-// // Shahnaz Ferdiansyah
-// // BE Class
+// Shahnaz Ferdiansyah
+// BE Class
 
-// console.log("");
-// let wadah = ["Gelas", "Piring", "Cangkir", "Toples"];
-// console.log(wadah.length);
+console.log("");
+let wadah = ["Gelas", "Piring", "Cangkir", "Toples"];
+console.log(wadah.length);
 
-// console.log(wadah[1]);
-// wadah.push("Botol");
-// console.log(wadah.length);
-// wadah[1] = "Mangkuk";
+console.log(wadah[1]);
+wadah.push("Botol");
+console.log(wadah.length);
+wadah[1] = "Mangkuk";
 
-// console.log(wadah);
-// delete wadah[4];
-// console.log(wadah.length);
-// console.log(wadah);
-// console.log(wadah[wadah.length - 1]);
-// //unshift untuk push dari depan
-// wadah.unshift("Box");
-// console.log(wadah);
+console.log(wadah);
+delete wadah[4];
+console.log(wadah.length);
+console.log(wadah);
+console.log(wadah[wadah.length - 1]);
+//unshift untuk push dari depan
+wadah.unshift("Box");
+console.log(wadah);
 
-//Tugas 1
+// Tugas 1
 // buat 3 array masing masing datanya 5
 // ambil data untuk index yang ganjil
 
 console.log("");
+console.log("Tugas 1");
+
 let Weekdays = ["Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu"];
+console.log(Weekdays);
 let Rumah = ["Meja", "Kursi", "Jendela", "Lemari", "Pintu", "Rak"];
+console.log(Rumah);
 let Laptop = ["RAM", "ROM", "CPU", "GPU", "Battery", "keyboard"];
+console.log(Laptop);
 
 let ganjilWeekdays = [];
 let ganjilRumah = [];
 let ganjilLaptop = [];
+
+console.log("Ganjil Saja be like : ");
 
 for (let i = 0; i < Weekdays.length; i++) {
   if (i % 2 === 1) {
@@ -62,7 +69,7 @@ console.log("Tugas 2");
 // buat simpan semua array di no 1 ke dalam array baru
 // tampilkan di index genap saja
 
-let Jadisatu = [[Weekdays], [Rumah], [Laptop]];
+let Jadisatu = [Weekdays, Rumah, Laptop];
 console.log(Jadisatu);
 
 let genap = [];
@@ -74,5 +81,5 @@ for (let i = 0; i < Jadisatu.length; i++) {
     }
   }
 }
-// no 2 masih error. wkwk
+
 console.log(genap);
