@@ -74,6 +74,7 @@ console.log(Jadisatu);
 
 let genap = [];
 
+console.log("");
 for (let i = 0; i < Jadisatu.length; i++) {
   for (let j = 0; j < Jadisatu[i].length; j++) {
     if (j % 2 == 0) {
