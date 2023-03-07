@@ -1,5 +1,5 @@
 console.log("array");
-//Tugas dibawah
+//Tugas 1 dan 2 dibawah
 
 // Shahnaz Ferdiansyah
 // BE Class
