@@ -83,3 +83,4 @@ for (let i = 0; i < Jadisatu.length; i++) {
 }
 
 console.log(genap);
+//finally
