@@ -7,3 +7,4 @@ let wadah = [
 console.log(wadah[0][1]);
 wadah[2].push("Jambu");
 console.log(wadah[2][3]);
+// cuman materi array
