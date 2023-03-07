@@ -1,28 +1,28 @@
-console.log("array");
-//Tugas dibawah
+// console.log("array");
+// //Tugas dibawah
 
-// Shahnaz Ferdiansyah
-// BE Class
+// // Shahnaz Ferdiansyah
+// // BE Class
 
-console.log("");
-let wadah = ["Gelas", "Piring", "Cangkir", "Toples"];
-console.log(wadah.length);
+// console.log("");
+// let wadah = ["Gelas", "Piring", "Cangkir", "Toples"];
+// console.log(wadah.length);
 
-console.log(wadah[1]);
-wadah.push("Botol");
-console.log(wadah.length);
-wadah[1] = "Mangkuk";
+// console.log(wadah[1]);
+// wadah.push("Botol");
+// console.log(wadah.length);
+// wadah[1] = "Mangkuk";
 
-console.log(wadah);
-delete wadah[4];
-console.log(wadah.length);
-console.log(wadah);
-console.log(wadah[wadah.length - 1]);
-//unshift untuk push dari depan
-wadah.unshift("Box");
-console.log(wadah);
+// console.log(wadah);
+// delete wadah[4];
+// console.log(wadah.length);
+// console.log(wadah);
+// console.log(wadah[wadah.length - 1]);
+// //unshift untuk push dari depan
+// wadah.unshift("Box");
+// console.log(wadah);
 
-//Tugas
+//Tugas 1
 // buat 3 array masing masing datanya 5
 // ambil data untuk index yang ganjil
 
@@ -55,3 +55,24 @@ for (let i = 0; i < Laptop.length; i++) {
   }
 }
 console.log(ganjilLaptop);
+
+console.log("");
+console.log("Tugas 2");
+//Tugas 2
+// buat simpan semua array di no 1 ke dalam array baru
+// tampilkan di index genap saja
+
+let Jadisatu = [[Weekdays], [Rumah], [Laptop]];
+console.log(Jadisatu);
+
+let genap = [];
+
+for (let i = 0; i < Jadisatu.length; i++) {
+  for (let j = 0; j < Jadisatu[i].length; j++) {
+    if (j % 2 == 0) {
+      genap.push(Jadisatu[i][j]);
+    }
+  }
+}
+// no 2 masih error. wkwk
+console.log(genap);
